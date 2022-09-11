@@ -6,7 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest",
+    "test": "jest --verbose",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "fresh:ios": "rm -rf ./node_modules && cd ios/ && rm -rf ./pods && cd .. && yarn && cd ios/ && pod install && cd .. && yarn ios"
   },
@@ -25,6 +25,7 @@
     "@babel/core": "^7.12.9",
     "@babel/runtime": "^7.12.5",
     "@react-native-community/eslint-config": "^2.0.0",
+    "@testing-library/react-native": "^11.0.0",
     "@types/jest": "^26.0.23",
     "@types/react-native": "^0.67.3",
     "@types/react-test-renderer": "^17.0.1",
